@@ -81,6 +81,10 @@ input, select, textarea {
 		align-items: stretch;
 	}
 
+		.row img {
+			border: 1px solid rgb(189, 189, 189);
+		}
+
 		.row > * {
 			box-sizing: border-box;
 		}
@@ -1306,7 +1310,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/keys.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
